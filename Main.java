@@ -5,17 +5,17 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Course course1=new Course(1,"Java","Engin Demiroğ","5%");
+		Course course1=new Course(1,"Java","Engin DemiroÃ°","5%");
 		course1.courseId=1;
 		course1.courseName="Java";
-		course1.instructor="Engin Demiroğ";
+		course1.instructor="Engin DemiroÃ°";
 		course1.percentecomplete="5%";
 		
-		Course course2= new Course(2, "c#", "Engin Demiroğ", "90%");
+		Course course2= new Course(2, "c#", "Engin DemiroÃ°", "90%");
 		
 		course2.courseId=2;
 		course2.courseName="c#";
-		course2.instructor="Engin Demiroğ";
+		course2.instructor="Engin DemiroÃ°";
 		course2.percentecomplete="90%";
 		
 		Course[] courses= {course1,course2};
@@ -29,7 +29,7 @@ public class Main {
 		}
 		
 		
-		User user1= new User(1, "Merve Kuş");
+		User user1= new User(1, "Merve KuÃ¾");
 		User[] users= {user1};
 		
 		for (User u: users) {
@@ -42,19 +42,16 @@ public class Main {
 		
 				
 		
-         FAQS faqs1= new FAQS();
-		faqs1.question= "Bu kamp ücretsiz mi?";
-		 FAQS ans1= new FAQS();
-		 ans1.answer="Evet, bu kamp ücretsiz.";
+                 FAQS faqs1= new FAQS();
+		 faqs1.question= "Bu kamp Ã¼cretsiz mi?";
+		 faqs1.answer="Evet, bu kamp Ã¼cretsiz.";
 		 FAQS faqs2= new FAQS();
-		 faqs2.question= "Bu kamp nerede yayımlanacak?";
-		 FAQS ans2= new FAQS();
-		 ans2.answer="Canlı yayın youtube kanalında yayımlanacak.";
+		 faqs2.question= "Bu kamp nerede yayÄ±mlanacak?";
+		 faqs2.answer="CanlÄ± yayÄ±n youtube kanalÄ±nda yayÄ±mlanacak.";
 		  FAQS faqs3= new FAQS();
-		  faqs3.question= "Yayın tarih ve saati ile ilgili bilgiler nelerdir?";
-		 FAQS ans3= new FAQS();
-		 ans3.answer="Her çarşamba ve cumartesi günleri 9.30 pm'de";
-		 FAQS[] faqs= {faqs1,ans1,faqs2,ans2,faqs3,ans3};
+		  faqs3.question= "YayÄ±n tarih ve saati ile ilgili bilgiler nelerdir?";
+		 faqs3.answer="Her Ã§arÅŸamba ve cumartesi gÃ¼nleri 9.30 pm'de";
+		 FAQS[] faqs= {faqs1,faqs2,faqs3,};
 		 
 		 for ( FAQS faq: faqs) {
 			
